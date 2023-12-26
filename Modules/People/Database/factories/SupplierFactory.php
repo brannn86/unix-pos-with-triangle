@@ -20,12 +20,20 @@ class SupplierFactory extends Factory
     public function definition()
     {
         return [
-            'supplier_name' => $this->faker->name(),
-            'supplier_email' => $this->faker->safeEmail(),
-            'supplier_phone' => $this->faker->phoneNumber(),
-            'city' => $this->faker->city(),
-            'country' => $this->faker->country(),
-            'address' => $this->faker->streetAddress()
+            'supplier_name'     => 'Kopi Company',
+            'supplier_email'    => 'kopkom@test.com',
+            'supplier_phone'    => '085123456789',
+            'city'              => 'Bandung',
+            'country'           => 'Indonesia',
+            'address'           => 'Bandung'
+        ];
+        return [
+            'supplier_name'     => 'Food Company',
+            'supplier_email'    => 'foodkom@test.com',
+            'supplier_phone'    => '085123456789',
+            'city'              => 'Bandung',
+            'country'           => 'Indonesia',
+            'address'           => 'Bandung'
         ];
     }
 }

@@ -19,14 +19,30 @@ class CustomerFactory extends Factory
      */
     public function definition()
     {
+        // return [
+        //     'customer_name'     => $this->faker->name(),
+        //     'customer_email'    => $this->faker->safeEmail(),
+        //     'customer_phone'    => $this->faker->phoneNumber(),
+        //     'city'              => $this->faker->city(),
+        //     'country'           => $this->faker->country(),
+        //     'address'           => $this->faker->streetAddress()
+        // ];
         return [
-            'customer_name' => $this->faker->name(),
-            'customer_email' => $this->faker->safeEmail(),
-            'customer_phone' => $this->faker->phoneNumber(),
-            'city' => $this->faker->city(),
-            'country' => $this->faker->country(),
-            'address' => $this->faker->streetAddress()
+            'customer_name'     => 'Dine in',
+            'customer_email'    => 'null@test.com',
+            'customer_phone'    => '000',
+            'city'              => 'Bandung',
+            'country'           => 'Indonesia',
+            'address'           => 'Home'
         ];
+        return [
+            'customer_name'     => 'Takeout',
+            'customer_email'    => 'null@test.com',
+            'customer_phone'    => '000',
+            'city'              => 'Bandung',
+            'country'           => 'Indonesia',
+            'address'           => 'Home'
+            ];
     }
 }
 
