@@ -25,9 +25,8 @@
 # Admin Credentials
 > Email: admin@test.com || Password: 12345678
 
-## Demo
-![Unix POS](public/images/screenshot.jpg)
-**Live Demo:** will update soon
+## Screenshot
+![Unix POS](public/images/screenshot.png)
 
 ## Unix POS Features
 
@@ -44,6 +43,3 @@
 - **Unit Settings**
 - **System Settings**
 - **Reports**
-
-# License
-**[Creative Commons Attribution 4.0	cc-by-4.0](https://creativecommons.org/licenses/by/4.0/)**
