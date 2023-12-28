@@ -81,11 +81,6 @@
                     </form>
                 </div>
             </div>
-
-            <p class="text-center mt-5 lead">
-                Developed By
-                <strong>Kelompok 3</strong>
-            </p>
         </div>
     </div>
 </div>
